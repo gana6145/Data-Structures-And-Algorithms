@@ -1,11 +1,11 @@
 package stringallproblem;
 
 public class SubStringMethod {
-	public static String Substr(String name,int start,int end) {
+	public static String subStr(String name,int start,int end) {
 		String str="";
 		
-		for(int i=start;i<=end;start++) {
-			str=str+name.charAt(start);
+		for(int i=start;i<=end;i++) {
+			str=str+name.charAt(i);
 		}
 		
 		return str;
@@ -14,7 +14,7 @@ public class SubStringMethod {
 
 	public static void main(String[] args) {
 		String name="GAnesh jAdhav";
-		System.out.println(Substr(name,1,3));
+		System.out.println(subStr(name,1,3));
 
 	}
 
