@@ -32,7 +32,7 @@ public class OccuranceCharacter {
 	}
 
 	public static void main(String[] args) {
-		String name="Ganeshjadhav";
+		String name="aaab";
 		frequencyArray(name);
 		
 	}
