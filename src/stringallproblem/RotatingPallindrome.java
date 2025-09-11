@@ -2,10 +2,10 @@ package stringallproblem;
 
 public class RotatingPallindrome {
 	
-	public static boolean rotateCheck(String str) {
-		
-		
-	}
+//	public static boolean rotateCheck(String str) {
+//		
+//		
+//	}
 	
 	public static boolean isPallindrome(String str) {
 		int start=0;
