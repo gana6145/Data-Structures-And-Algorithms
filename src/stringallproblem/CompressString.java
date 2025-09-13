@@ -4,7 +4,7 @@ public class CompressString {
 	
 	
 	public static String compressString(String str){
-		String ans="";
+		String  ans="";
 		int count=1;
 		
 		for(int i=0,j=i+1;i<str.length();) {
@@ -13,7 +13,9 @@ public class CompressString {
 				j++;
 			}
 			else {
-				ans=ans+str.charAt(i)+count;
+				if(count>1) {
+					ans=ans+str.charAt(i)+count;
+				}
 				i=j;
 				count=1;
 				j=i+1;
