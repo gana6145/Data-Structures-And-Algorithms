@@ -7,7 +7,7 @@ public class PrimeNumber {
 	public static String checkPrime(int num) {
 		for(int i=2;i<num/2;i++) {
 			if(num%i==0) {
-				return "number is not a rime number";
+				return "number is not a prime number";
 			}
 		}
 		
