@@ -4,13 +4,16 @@ public class MissingNumber {
 	
 	
 	public static int missingNumber(int arr[]) {
-		int n=arr.length-1;
-		n=arr[n];
-		int sum=n*(n+1)/2;
+		int sum=0;
+		int large=0;
 		for(int i=0;i<arr.length;i++) {
-			sum-=arr[i];
+			sum+=arr[i];
+			if(large<arr[i]) {
+				large=arr[i];
+			}
 	       }
-		return sum;
+		int actSum=large*(large+1)/2;
+		return actSum-sum;
 		
 	}
 	
