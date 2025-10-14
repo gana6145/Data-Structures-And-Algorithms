@@ -12,7 +12,8 @@ public class ArrayListDriver {
 		list.add(new Student("Pratik",25));
 		
 		System.out.println(list);
-		
+		LinkedList<Student> l2=new LinkedList<Student>(list);
+		System.out.println(l2);
 		
 
 	}
