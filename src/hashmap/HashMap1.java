@@ -23,6 +23,7 @@ public class HashMap1 {
 			System.out.println(hm.get(it.next()));
 		}
 		
+		
 
 	}
 
